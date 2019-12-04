@@ -8,4 +8,4 @@ export const typeDefs = `
   type Query {
     contacts: [Contact]
   }
-`
+`;

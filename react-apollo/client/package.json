@@ -1,32 +1,17 @@
 {
-  "name": "client",
+  "name": "crm",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.12.0",
-    "react-apollo": "^3.1.3",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.11",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
